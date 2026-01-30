@@ -1,0 +1,1104 @@
+% --- VVER-1000/UOX(3.7 %) Assembly --------------------------------------
+
+set title "1000/UOX(3.7 %)"
+
+% --- Fuel rods:
+
+% --- main raw:
+
+surf 1  cyl    0.0    0.0    0.9          % central area
+surf 2  cyl    0.0    0.0    1.15         % clad area
+
+surf 3  hexxc  0.0    0.0    1.48        % central hexagonal displacer
+surf 4  hexxc  0.0    0.0    1.55         % central hexagonal displacer
+
+surf 5  cyl    2.0    0.0    0.315        % fuel area
+surf 6  cyl    2.0    0.0    0.345        % clad area
+
+surf 7  cyl    3.0    0.0    0.315        % fuel area
+surf 8  cyl    3.0    0.0    0.345        % clad area
+
+surf 9  cyl    4.0    0.0    0.315        % fuel area
+surf 10 cyl    4.0    0.0    0.345        % clad area
+
+surf 11 cyl    5.0    0.0    0.315        % fuelGd area
+surf 12 cyl    5.0    0.0    0.345        % clad area
+
+surf 13 cyl   -2.0    0.0    0.315        % fuel area
+surf 14 cyl   -2.0    0.0    0.345        % clad area
+
+surf 15 cyl   -3.0    0.0    0.315        % fuel area
+surf 16 cyl   -3.0    0.0    0.345        % clad area
+
+surf 17 cyl   -4.0    0.0    0.315        % fuel area
+surf 18 cyl   -4.0    0.0    0.345        % clad area
+
+surf 19 cyl   -5.0    0.0    0.315        % fuelGd area
+surf 20 cyl   -5.0    0.0    0.345        % clad area
+
+% --- second raw:
+
+surf 21 cyl    2.5    0.86602540    0.315        % fuel area
+surf 22 cyl    2.5    0.86602540    0.345        % clad area
+
+surf 23 cyl    3.5    0.86602540    0.315        % fuel area
+surf 24 cyl    3.5    0.86602540    0.345        % clad area
+
+surf 25 cyl    4.5    0.86602540    0.315        % fuel area
+surf 26 cyl    4.5    0.86602540    0.345        % clad area
+					  
+surf 27 cyl   -2.5    0.86602540    0.315        % fuel area
+surf 28 cyl   -2.5    0.86602540    0.345        % clad area
+					  
+surf 29 cyl   -3.5    0.86602540    0.315        % fuel area
+surf 30 cyl   -3.5    0.86602540    0.345        % clad area
+					  
+surf 31 cyl   -4.5    0.86602540    0.315        % fuel area
+surf 32 cyl   -4.5    0.86602540    0.345        % clad area
+
+% --- third raw:
+
+surf 33 cyl    1.0    1.73205081    0.315        % fuel area
+surf 34 cyl    1.0    1.73205081    0.345        % clad area
+
+surf 35 cyl    2.0    1.73205081    0.315         % fuel area
+surf 36 cyl    2.0    1.73205081    0.345         % clad area
+
+surf 37 cyl    3.0    1.73205081    0.315        % fuel area
+surf 38 cyl    3.0    1.73205081    0.345        % clad area
+
+surf 39 cyl    4.0    1.73205081    0.315        % fuel area
+surf 40 cyl    4.0    1.73205081    0.345        % clad area
+
+surf 41 cyl   -1.0    1.73205081    0.315        % fuel area
+surf 42 cyl   -1.0    1.73205081    0.345        % clad area
+
+surf 43 cyl   -2.0    1.73205081    0.315        % fuel area
+surf 44 cyl   -2.0    1.73205081    0.345        % clad area
+
+surf 45 cyl   -3.0    1.73205081    0.315        % fuel area
+surf 46 cyl   -3.0    1.73205081    0.345        % clad area
+
+surf 47 cyl   -4.0    1.73205081    0.315        % fuel area
+surf 48 cyl   -4.0    1.73205081    0.345        % clad area
+
+% --- fourth raw:
+
+surf 49 cyl    0.5    2.59807621    0.315        % fuel area
+surf 50 cyl    0.5    2.59807621    0.345        % clad area
+					  
+surf 51 cyl    1.5    2.59807621    0.315        % fuel area
+surf 52 cyl    1.5    2.59807621    0.345        % clad area
+					  
+surf 53 cyl    2.5    2.59807621    0.315        % fuel area
+surf 54 cyl    2.5    2.59807621    0.345        % clad area
+					  
+surf 55 cyl    3.5    2.59807621    0.315        % fuel area
+surf 56 cyl    3.5    2.59807621    0.345        % clad area
+					  
+surf 57 cyl   -0.5    2.59807621    0.315        % fuel area
+surf 58 cyl   -0.5    2.59807621    0.345        % clad area
+					  
+surf 59 cyl   -1.5    2.59807621    0.315        % fuel area
+surf 60 cyl   -1.5    2.59807621    0.345        % clad area
+					  
+surf 61 cyl   -2.5    2.59807621    0.315        % fuel area
+surf 62 cyl   -2.5    2.59807621    0.345        % clad area
+					  
+surf 63 cyl   -3.5    2.59807621    0.315        % fuel area
+surf 64 cyl   -3.5    2.59807621    0.345        % clad area
+
+% --- fifth raw:
+
+surf 65 cyl    0.0   3.46410161    0.315         % fuel area
+surf 66 cyl    0.0   3.46410161    0.345         % clad area
+
+surf 67 cyl    1.0   3.46410161    0.315         % fuel area
+surf 68 cyl    1.0   3.46410161    0.345         % clad area
+
+surf 69 cyl    2.0   3.46410161    0.315         % fuel area
+surf 70 cyl    2.0   3.46410161    0.345         % clad area
+
+surf 71 cyl    3.0   3.46410161    0.315         % fuel area
+surf 72 cyl    3.0   3.46410161    0.345         % clad area
+
+surf 73 cyl   -1.0   3.46410161    0.315         % fuel area
+surf 74 cyl   -1.0   3.46410161    0.345         % clad area
+
+surf 75 cyl   -2.0   3.46410161    0.315         % fuel area
+surf 76 cyl   -2.0   3.46410161    0.345         % clad area
+
+surf 77 cyl   -3.0   3.46410161    0.315         % fuel area
+surf 78 cyl   -3.0   3.46410161    0.345         % clad area
+
+% --- sixth raw:
+
+surf 79 cyl    0.5   4.33012701    0.315         % fuel area
+surf 80 cyl    0.5   4.33012701    0.345         % clad area
+
+surf 81 cyl    1.5   4.33012701    0.315         % fuel area
+surf 82 cyl    1.5   4.33012701    0.345         % clad area
+
+surf 83 cyl    2.5   4.33012701    0.315         % fuelGd area
+surf 84 cyl    2.5   4.33012701    0.345         % clad area
+
+surf 85 cyl   -0.5   4.33012701    0.315         % fuel area
+surf 86 cyl   -0.5   4.33012701    0.345         % clad area
+			  
+surf 87 cyl   -1.5   4.33012701    0.315         % fuel area
+surf 88 cyl   -1.5   4.33012701    0.345         % clad area
+			  
+surf 89 cyl   -2.5   4.33012701    0.315         % fuelGd area
+surf 90 cyl   -2.5   4.33012701    0.345         % clad area
+
+% --- second raw in negative side:
+
+surf 91 cyl    2.5   -0.86602540    0.315        % fuel area
+surf 92 cyl    2.5   -0.86602540    0.345        % clad area
+					 
+surf 93 cyl    3.5   -0.86602540    0.315        % fuel area
+surf 94 cyl    3.5   -0.86602540    0.345        % clad area
+					 
+surf 95 cyl    4.5   -0.86602540    0.315        % fuel area
+surf 96 cyl    4.5   -0.86602540    0.345        % clad area
+					 
+surf 97 cyl   -2.5   -0.86602540    0.315        % fuel area
+surf 98 cyl   -2.5   -0.86602540    0.345        % clad area
+					 
+surf 99 cyl   -3.5   -0.86602540    0.315        % fuel area
+surf 100 cyl   -3.5   -0.86602540    0.345        % clad area
+					 
+surf 101 cyl   -4.5   -0.86602540    0.315        % fuel area
+surf 102 cyl   -4.5   -0.86602540    0.345        % clad area
+
+% --- third raw in negative side:
+
+surf 103 cyl    1.0   -1.73205081    0.315        % fuel area
+surf 104 cyl    1.0   -1.73205081    0.345        % clad area
+					 
+surf 105 cyl    2.0   -1.73205081    0.315         % fuel area
+surf 106 cyl    2.0   -1.73205081    0.345         % clad area
+					 
+surf 107 cyl    3.0   -1.73205081    0.315        % fuel area
+surf 108 cyl    3.0   -1.73205081    0.345        % clad area
+					 
+surf 109 cyl    4.0   -1.73205081    0.315        % fuel area
+surf 110 cyl    4.0   -1.73205081    0.345        % clad area
+					 
+surf 111 cyl   -1.0   -1.73205081    0.315        % fuel area
+surf 112 cyl   -1.0   -1.73205081    0.345        % clad area
+					 
+surf 113 cyl   -2.0   -1.73205081    0.315        % fuel area
+surf 114 cyl  -2.0   -1.73205081    0.345        % clad area
+					 
+surf 115 cyl  -3.0   -1.73205081    0.315        % fuel area
+surf 116 cyl  -3.0   -1.73205081    0.345        % clad area
+					 
+surf 117 cyl  -4.0   -1.73205081    0.315        % fuel area
+surf 118 cyl  -4.0   -1.73205081    0.345        % clad area
+
+% --- fourth raw in negative side:
+
+surf 119 cyl   0.5   -2.59807621    0.315        % fuel area
+surf 120 cyl   0.5   -2.59807621    0.345        % clad area
+					 
+surf 121 cyl   1.5   -2.59807621    0.315        % fuel area
+surf 122 cyl   1.5   -2.59807621    0.345        % clad area
+					 
+surf 123 cyl   2.5   -2.59807621    0.315        % fuel area
+surf 124 cyl   2.5   -2.59807621    0.345        % clad area
+					 
+surf 125 cyl   3.5   -2.59807621    0.315        % fuel area
+surf 126 cyl   3.5   -2.59807621    0.345        % clad area
+					 
+surf 127 cyl  -0.5   -2.59807621    0.315        % fuel area
+surf 128 cyl  -0.5   -2.59807621    0.345        % clad area
+					 
+surf 129 cyl  -1.5   -2.59807621    0.315        % fuel area
+surf 130 cyl  -1.5   -2.59807621    0.345        % clad area
+					 
+surf 131 cyl  -2.5   -2.59807621    0.315        % fuel area
+surf 132 cyl  -2.5   -2.59807621    0.345        % clad area
+					 
+surf 133 cyl  -3.5   -2.59807621    0.315        % fuel area
+surf 134 cyl  -3.5   -2.59807621    0.345        % clad area
+
+% --- fifth raw in negative side:
+
+surf 135 cyl   0.0   -3.46410161    0.315         % fuel area
+surf 136 cyl   0.0   -3.46410161    0.345         % clad area
+					 
+surf 137 cyl   1.0   -3.46410161    0.315         % fuel area
+surf 138 cyl   1.0   -3.46410161    0.345         % clad area
+					 
+surf 139 cyl   2.0   -3.46410161    0.315         % fuel area
+surf 140 cyl   2.0   -3.46410161    0.345         % clad area
+					 
+surf 141 cyl   3.0   -3.46410161    0.315         % fuel area
+surf 142 cyl   3.0   -3.46410161    0.345         % clad area
+					 
+surf 143 cyl  -1.0   -3.46410161    0.315         % fuel area
+surf 144 cyl  -1.0   -3.46410161    0.345         % clad area
+					 
+surf 145 cyl  -2.0   -3.46410161    0.315         % fuel area
+surf 146 cyl  -2.0   -3.46410161    0.345         % clad area
+					 
+surf 147 cyl  -3.0   -3.46410161    0.315         % fuel area
+surf 148 cyl  -3.0   -3.46410161    0.345         % clad area
+
+% --- sixth raw in negative side:
+
+surf 149 cyl    0.5  -4.33012701    0.315         % fuel area
+surf 150 cyl    0.5  -4.33012701    0.345         % clad area
+					 
+surf 151 cyl    1.5  -4.33012701    0.315         % fuel area
+surf 152 cyl    1.5  -4.33012701    0.345         % clad area
+					 
+surf 153 cyl    2.5  -4.33012701    0.315         % fuelGd area
+surf 154 cyl    2.5  -4.33012701    0.345         % clad area
+					 
+surf 155 cyl   -0.5  -4.33012701    0.315         % fuel area
+surf 156 cyl   -0.5  -4.33012701    0.345         % clad area
+					 
+surf 157 cyl   -1.5  -4.33012701    0.315         % fuel area
+surf 158 cyl   -1.5  -4.33012701    0.345         % clad area
+					 
+surf 159 cyl   -2.5  -4.33012701    0.315         % fuelGd area
+surf 160 cyl   -2.5  -4.33012701    0.345         % clad area
+
+% --- Surfaces (assembly pitch = 12.03 cm):
+
+surf 1000  hexyc    0.0  0.0  4.760  % Shroud tube inner radius
+surf 1001  hexyc    0.0  0.0  4.925  % Shroud tube outer radius
+surf 2001  pz       0.0
+surf 2002  pz       165.0  
+
+% --- small gadolinium rods: 
+% --- in second raw: 
+
+surf 161 cyl    1.83340495   0.9860254    0.205        % fuelGd area
+surf 162 cyl    1.83340495   0.9860254    0.225        % clad area
+
+surf 163 cyl   -1.83340495   0.9860254    0.205        % fuelGd area
+surf 164 cyl   -1.83340495   0.9860254    0.225        % clad area
+
+% in third raw:
+
+surf 165 cyl    0.0   2.08173481    0.205        % fuelGd area
+surf 166 cyl    0.0   2.08173481    0.225        % clad area
+
+% in negative second raw: 
+
+surf 167 cyl    1.83340495  -0.9860254    0.205        % fuelGd area
+surf 168 cyl    1.83340495  -0.9860254    0.225        % clad area
+
+surf 169 cyl   -1.83340495  -0.9860254    0.205        % fuelGd area
+surf 170 cyl   -1.83340495  -0.9860254    0.225        % clad area
+
+% in negative third raw:
+
+surf 171 cyl    0.0  -2.08173481    0.205        % fuelGd area
+surf 172 cyl    0.0  -2.08173481    0.225        % clad area
+
+% --- Cells: 
+
+% --- main raw:
+
+cell  1  0  water     -1                 2001    -2002                     
+cell  2  0  clad       1  -2             2001    -2002
+cell  3  0  water      2  -3             2001    -2002
+cell  4  0  clad       3  -4             2001    -2002
+cell  5  0  water          4  6  8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100 102 104 106 108 110 112 114 116 118 120 122 124 126 128 130 132 134 136 138 140 142 144 146 148 150 152 154 156 158 160 162 164 166 168 170 172 -1000 2001 -2002
+
+
+cell  6  0  fuel      -5                 2001    -2002                  
+cell  7  0  clad       5  -6             2001    -2002
+
+cell  8  0  fuel      -7                 2001    -2002                  
+cell  9  0  clad       7  -8             2001    -2002
+
+cell 10  0  fuel      -9                 2001    -2002                  
+cell 11  0  clad       9 -10             2001    -2002
+
+cell 12  0  fuelGd   -11                 2001    -2002                  
+cell 13  0  clad      11  -12             2001    -2002
+
+cell 14  0  fuel     -13                 2001    -2002                  
+cell 15  0  clad      13 -14             2001    -2002
+
+cell 16  0  fuel     -15                 2001    -2002                  
+cell 17  0  clad      15 -16             2001    -2002
+ 
+cell 18  0  fuel     -17                 2001    -2002                  
+cell 19  0  clad      17 -18             2001    -2002
+
+cell 20  0  fuelGd   -19                 2001    -2002                  
+cell 21  0  clad      19 -20             2001    -2002
+
+% --- second raw:
+
+cell 22  0  fuel     -21                 2001    -2002                  
+cell 23  0  clad      21 -22             2001    -2002
+
+cell 24  0  fuel     -23                 2001    -2002                  
+cell 25  0  clad      23 -24             2001    -2002
+
+cell 26  0  fuel     -25                 2001    -2002                  
+cell 27  0  clad      25 -26             2001    -2002
+
+cell 28  0  fuel     -27                 2001    -2002                  
+cell 29  0  clad      27 -28             2001    -2002
+
+cell 30  0  fuel     -29                 2001    -2002                  
+cell 31  0  clad      29 -30             2001    -2002
+
+cell 32  0  fuel    -31                 2001    -2002                  
+cell 33  0  clad      31 -32             2001    -2002
+ 
+% --- third raw:
+ 
+cell 34  0  fuel     -33                 2001    -2002                  
+cell 35  0  clad      33 -34             2001    -2002
+
+cell 36  0  fuel     -35                 2001    -2002                  
+cell 37  0  clad      35 -36             2001    -2002
+
+cell 38  0  fuel     -37                 2001    -2002                  
+cell 39  0  clad      37 -38             2001    -2002
+
+cell 40  0  fuel     -39                 2001    -2002                  
+cell 41  0  clad      39 -40             2001    -2002
+
+cell 42  0  fuel     -41                 2001    -2002                  
+cell 43  0  clad      41 -42             2001    -2002
+
+cell 44  0  fuel     -43                 2001    -2002                  
+cell 45  0  clad      43 -44             2001    -2002
+
+cell 46  0  fuel     -45                 2001    -2002                  
+cell 47  0  clad      45 -46             2001    -2002
+
+cell 48  0  fuel     -47                 2001    -2002                  
+cell 49  0  clad      47 -48             2001    -2002
+
+% --- fourth raw:
+
+cell 50  0  fuel     -49                 2001    -2002                  
+cell 51  0  clad      49 -50             2001    -2002
+ 
+cell 52  0  fuel     -51                 2001    -2002                  
+cell 53  0  clad      51 -52             2001    -2002
+
+cell 54  0  fuel     -53                 2001    -2002                  
+cell 55  0  clad      53 -54             2001    -2002
+
+cell 56  0  fuel     -55                 2001    -2002                  
+cell 57  0  clad      55 -56             2001    -2002
+
+cell 58  0  fuel     -57                 2001    -2002                  
+cell 59  0  clad      57 -58             2001    -2002
+
+cell 60  0  fuel     -59                 2001    -2002                  
+cell 61  0  clad      59 -60             2001    -2002
+
+cell 62  0  fuel     -61                 2001    -2002                  
+cell 63  0  clad      61 -62             2001    -2002
+
+cell 64  0  fuel     -63                 2001    -2002                  
+cell 65  0  clad      63 -64             2001    -2002
+
+% --- fifth raw:
+
+cell 66  0  fuel     -65                 2001    -2002                  
+cell 67  0  clad      65 -66             2001    -2002
+
+cell 68  0  fuel    -67                 2001    -2002                  
+cell 69  0  clad      67 -68             2001    -2002
+
+cell 70  0  fuel     -69                 2001    -2002                  
+cell 71  0  clad      69 -70             2001    -2002
+
+cell 72  0  fuel     -71                 2001    -2002                  
+cell 73  0  clad      71 -72             2001    -2002
+
+cell 74  0  fuel     -73                 2001    -2002                  
+cell 75  0  clad      73 -74             2001    -2002
+
+cell 76  0  fuel     -75                 2001    -2002                  
+cell 77  0  clad      75 -76             2001    -2002
+
+cell 78  0  fuel     -77                 2001    -2002                  
+cell 79  0  clad      77 -78             2001    -2002
+
+% --- sixth raw:
+
+cell 80  0  fuel     -79                 2001    -2002                  
+cell 81  0  clad      79 -80             2001    -2002
+
+cell 82  0  fuel     -81                 2001    -2002                  
+cell 83  0  clad      81 -82             2001    -2002
+
+cell 84  0  fuelGd   -83                 2001    -2002                  
+cell 85  0  clad      83 -84             2001    -2002
+
+cell 86  0  fuel     -85                 2001    -2002                  
+cell 87  0  clad      85 -86             2001    -2002
+
+cell 88  0  fuel    -87                 2001    -2002                  
+cell 89  0  clad      87 -88             2001    -2002
+
+cell 90  0  fuelGd   -89                 2001    -2002                  
+cell 91  0  clad      89 -90             2001    -2002
+
+% --- second raw in negative side:
+
+cell 92  0  fuel     -91                 2001    -2002                  
+cell 93  0  clad      91 -92             2001    -2002
+
+cell 94  0  fuel     -93                 2001    -2002                  
+cell 95  0  clad      93 -94             2001    -2002
+
+cell 96  0  fuel     -95                 2001    -2002                  
+cell 97  0  clad      95 -96             2001    -2002
+
+cell 98  0  fuel     -97                 2001    -2002                  
+cell 99  0  clad      97 -98             2001    -2002
+
+cell 100  0  fuel     -99                   2001    -2002                  
+cell 101  0  clad      99 -100              2001    -2002
+
+cell 102  0  fuel     -101                  2001    -2002                  
+cell 103  0  clad      101 -102             2001    -2002
+
+% --- third raw in negative side:
+
+cell 104  0  fuel     -103                  2001    -2002                  
+cell 105  0  clad      103 -104             2001    -2002
+
+cell 106  0  fuel     -105                  2001    -2002                  
+cell 107  0  clad      105 -106             2001    -2002
+
+cell 108  0  fuel     -107                  2001    -2002                  
+cell 109  0  clad      107 -108             2001    -2002
+
+cell 110  0  fuel     -109                  2001    -2002                  
+cell 111  0  clad      109 -110             2001    -2002
+
+cell 112  0  fuel     -111                  2001    -2002                  
+cell 113  0  clad      111 -112             2001    -2002
+
+cell 114  0  fuel     -113                  2001    -2002                  
+cell 115  0  clad      113 -114             2001    -2002
+
+cell 116  0  fuel     -115                  2001    -2002                  
+cell 117  0  clad      115 -116             2001    -2002
+
+cell 118  0  fuel     -117                  2001    -2002                  
+cell 119  0  clad      117 -118             2001    -2002
+
+% --- fourth raw in negative side:
+
+cell 120  0  fuel     -119                  2001    -2002                  
+cell 121  0  clad      119 -120             2001    -2002
+
+cell 122  0  fuel     -121                  2001    -2002                  
+cell 123  0  clad      121 -122             2001    -2002
+
+cell 124  0  fuel     -123                  2001    -2002                  
+cell 125  0  clad      123 -124             2001    -2002
+
+cell 126  0  fuel     -125                  2001    -2002                  
+cell 127  0  clad      125 -126             2001    -2002
+
+cell 128  0  fuel     -127                  2001    -2002                  
+cell 129  0  clad      127 -128             2001    -2002
+
+cell 130  0  fuel     -129                  2001    -2002                  
+cell 131  0  clad      129 -130             2001    -2002
+
+cell 132  0  fuel     -131                  2001    -2002                  
+cell 133  0  clad      131 -132             2001    -2002
+
+cell 134  0  fuel     -133                  2001    -2002                  
+cell 135  0  clad      133 -134             2001    -2002
+
+% --- fifth raw in negative side:
+
+cell 136  0  fuel     -135                  2001    -2002                  
+cell 137  0  clad      135 -136             2001    -2002
+
+cell 138  0  fuel     -137                  2001    -2002                  
+cell 139  0  clad      137 -138             2001    -2002
+
+cell 140  0  fuel     -139                  2001    -2002                  
+cell 141  0  clad      139 -140             2001    -2002
+
+cell 142  0  fuel     -141                  2001    -2002                  
+cell 143  0  clad      141 -142             2001    -2002
+
+cell 144  0  fuel     -143                  2001    -2002                  
+cell 145  0  clad      143 -144             2001    -2002
+
+cell 146  0  fuel     -145                  2001    -2002                  
+cell 147  0  clad      145 -146             2001    -2002
+
+cell 148  0  fuel     -147                  2001    -2002                  
+cell 149  0  clad      147 -148             2001    -2002
+
+% --- sixth raw in negative side:
+
+cell 150  0  fuel     -149                  2001    -2002                  
+cell 151  0  clad      149 -150             2001    -2002
+
+cell 152  0  fuel     -151                  2001    -2002                  
+cell 153  0  clad      151 -152             2001    -2002
+
+cell 154  0  fuelGd   -153                  2001    -2002                  
+cell 155  0  clad      153 -154             2001    -2002
+
+cell 156  0  fuel     -155                  2001    -2002                  
+cell 157  0  clad      155 -156             2001    -2002
+
+cell 158  0  fuel     -157                  2001    -2002                  
+cell 159  0  clad      157 -158             2001    -2002
+
+cell 160  0  fuelGd   -159                  2001    -2002                  
+cell 161  0  clad      159 -160             2001    -2002
+
+cell 200  0  clad1           1000     -1001       2001     -2002                
+cell 201  0  outside                   1001       2001     -2002 
+cell 202  0  outside                             -2001
+cell 203  0  outside                                        2002
+
+
+% --- small gadolinium rods: 
+% --- in second raw:
+
+cell 162  0  fuelGd1  -161                  2001    -2002                  
+cell 163  0  clad      161 -162             2001    -2002
+
+cell 164  0  fuelGd1  -163                  2001    -2002                  
+cell 165  0  clad      163 -164             2001    -2002
+
+% --- in third raw:
+
+cell 166  0  fuelGd1  -165                  2001    -2002                  
+cell 167  0  clad      165 -166             2001    -2002
+
+% --- in negative second raw:
+
+cell 168  0  fuelGd1  -167                  2001    -2002                  
+cell 169  0  clad      167 -168             2001    -2002
+
+cell 170  0  fuelGd1  -169                  2001    -2002                  
+cell 171  0  clad      169 -170             2001    -2002
+
+% --- in negative third raw:
+
+cell 172  0  fuelGd1  -171                  2001    -2002                  
+cell 173  0  clad      171 -172             2001    -2002
+
+% --- UO2 fuel1 enriched to 19 wt-% U-235 density 4,82918 g/sm3 (red):
+
+mat fuel    sum tmp 1027 rgb 255 0 0 burn 1 
+92235.09c   0.002046803
+92238.09c   0.008725845
+ 8016.09c   0.021545297
+ 
+% --- gadolinium in peripheral zones density 2.7 g/sm3 enrichment of U-235 19.7%(blue):
+ 
+mat fuelGd  sum  tmp 1027 rgb 102 255 255 burn 1
+92235.09c   0.002046803
+92238.09c   0.008725845
+ 8016.09c   0.021545297
+64152.09c   0.000017944 
+64154.09c   0.000188416
+64155.09c   0.001327885
+64156.09c   0.001848272
+64157.09c   0.001404148
+64158.09c   0.002225104
+64160.09c   0.001955938
+ 
+% --- gadolinium in central zones density 1.4 g/sm3 enrichment of U-235 19.7%(violet):
+
+mat fuelGd1  sum  tmp 1027 rgb 204 0 255 burn 1
+92235.09c    0.002046803
+92238.09c    0.008725845
+ 8016.09c    0.021545297
+64152.09c    0.000009304
+64154.09c    0.000097697
+64155.09c    0.000688533
+64156.09c    0.000728077
+64157.09c    0.001153758
+64158.09c    0.001014190
+ 
+% --- cladding E-110 кожух(black):
+
+mat clad1   -6.4516 tmp 575 rgb 0 0 0
+40000.03c   0.9897
+41093.03c   0.0100
+72000.03c   0.0003
+
+% --- cladding 42CrNiMn оболочка(green):
+
+mat clad    -8.1 tmp 575 rgb 0 255 0
+24050.03c   1.7815E-2
+24052.03c   3.4353E-1
+24053.03c   3.8954E-2
+24054.03c   9.6965E-3
+28058.03c   3.8299E-1
+28060.03c   1.4642E-1
+28061.03c   6.3393E-3
+28062.03c   2.0140E-2
+28064.03c   5.1051E-3
+25055.03c   2.0000E-3
+42092.03c   1.5860E-3
+42094.03c   9.1200E-3
+42095.03c   1.5700E-3
+42096.03c   1.6500E-3
+42097.03c   9.4500E-4
+42098.03c   2.3750E-3
+42100.03c   9.6200E-4
+ 6000.03c   3.0000E-4
+14028.03c   2.3058E-3   
+14029.03c   1.1675E-4
+14030.03c   7.7500E-5
+16032.03c   9.5020E-5
+16033.03c   7.5000E-7
+16034.03c   4.2100E-6
+16036.03c   2.0000E-8
+15031.03c   1.0000E-4
+22046.03c   1.9875E-4
+22047.03c   1.9375E-4 
+22048.03c   1.8363E-3
+22049.03c   1.3775E-4
+22050.03c   1.3350E-4
+26054.03c   3.5070E-4
+26056.03c   5.5052E-3
+26057.03c   1.2714E-4
+26058.03c   1.6920E-5
+13027.03c   4.0000E-3
+74182.03c   3.9750E-4
+74183.03c   2.1465E-4
+74184.03c   4.5960E-4
+74186.03c   4.2645E-4
+
+% --- Water (blue):
+
+mat water    -0.7 tmp 572 moder lwtr 1001 rgb 0 0 255
+ 1001.03c    2
+ 8016.03c    1
+ 
+% --- Thermal scattering data for light water:
+
+therm lwtr 572 lwe7.10t lwe7.12t
+
+% --- control rod (grey):
+
+%mat boron   -1.3 tmp 572 rgb 128 128 128
+%5010.06c    0.15714286
+%5011.06c    0.62857143
+%6000.03c    0.21428571
+
+% --- Cross section library file path:
+
+set acelib "/home/SHARED/Serpent/xsdata/ENDFB7/sss_endfb7.xsdata"
+set declib "/home/SHARED/Serpent/xsdata/ENDFB7/sss_endfb7.dec"
+set nfylib "/home/SHARED/Serpent/xsdata/ENDFB7/sss_endfb7.nfy"
+
+% --- Periodic boundary condition:
+
+set bc 2 2 1
+
+% --- Neutron population and criticality cycles:
+
+set pop 20000 5000 50
+
+% --- Geometry and mesh plots:
+plot 1 20000 20000
+plot 2 20000 20000
+plot 3 20000 20000
+mesh 1  5000 5000
+plot 33 20000 20000
+mesh 3  5000 5000
+mesh 10 3 5000 5000
+
+set powdens 47.75010789E-3
+
+dep daytot 
+
+10.000
+20.000
+30.000
+40.000
+50.000
+60.000
+70.000
+80.000
+90.000
+100.000
+110.000
+120.000
+130.000
+140.000
+150.000
+160.000
+170.000
+180.000
+190.000
+200.000
+210.000
+220.000
+230.000
+240.000
+250.000
+260.000
+270.000
+280.000
+290.000
+300.000
+310.000
+320.000
+330.000
+340.000
+350.000
+360.000
+370.000
+380.000
+390.000
+400.000
+410.000
+420.000
+430.000
+440.000
+450.000
+460.000
+470.000
+480.000
+490.000
+500.000
+510.000
+520.000
+530.000
+540.000
+550.000
+560.000
+570.000
+580.000
+590.000
+600.000
+610.000
+620.000
+630.000
+640.000
+650.000
+660.000
+670.000
+680.000
+690.000
+700.000
+710.000
+720.000
+730.000
+740.000
+750.000
+760.000
+770.000
+780.000
+790.000
+800.000
+810.000
+820.000
+830.000
+840.000
+850.000
+860.000
+870.000
+880.000
+890.000
+900.000
+910.000
+920.000
+930.000
+940.000
+950.000
+960.000
+970.000
+980.000
+990.000
+1000.000
+1010.000
+1020.000
+1030.000
+1040.000
+1050.000
+1060.000
+1070.000
+1080.000
+1090.000
+1100.000
+1110.000
+1120.000
+1130.000
+1140.000
+1150.000
+1160.000
+1170.000
+1180.000
+1190.000
+1200.000
+1210.000
+1220.000
+1230.000
+1240.000
+1250.000
+1260.000
+1270.000
+1280.000
+1290.000
+1300.000
+1310.000
+1320.000
+1330.000
+1340.000
+1350.000
+1360.000
+1370.000
+1380.000
+1390.000
+1400.000
+1410.000
+1420.000
+1430.000
+1440.000
+1450.000
+1460.000
+1470.000
+1480.000
+1490.000
+1500.000
+1510.000
+1520.000
+1530.000
+1540.000
+1550.000
+1560.000
+1570.000
+1580.000
+1590.000
+1600.000
+1610.000
+1620.000
+1630.000
+1640.000
+1650.000
+1660.000
+1670.000
+1680.000
+1690.000
+1700.000
+1710.000
+1720.000
+1730.000
+1740.000
+1750.000
+1760.000
+1770.000
+1780.000
+1790.000
+1800.000
+1810.000
+1820.000
+1830.000
+1840.000
+1850.000
+1860.000
+1870.000
+1880.000
+1890.000
+1900.000
+1910.000
+1920.000
+1930.000
+1940.000
+1950.000
+1960.000
+1970.000
+1980.000
+1990.000
+2000.000
+2010.000
+2020.000
+2030.000
+2040.000
+2050.000
+2060.000
+2070.000
+2080.000
+2090.000
+2100.000
+2110.000
+2120.000
+2130.000
+2140.000
+2150.000
+2160.000
+2170.000
+2180.000
+2190.000
+2200.000
+2210.000
+2220.000
+2230.000
+2240.000
+2250.000
+2260.000
+2270.000
+2280.000
+2290.000
+2300.000
+2310.000
+2320.000
+2330.000
+2340.000
+2350.000
+2360.000
+2370.000
+2380.000
+2390.000
+2400.000
+2410.000
+2420.000
+2430.000
+2440.000
+2450.000
+2460.000
+2470.000
+2480.000
+2490.000
+2500.000
+2510.000
+2520.000
+2530.000
+2540.000
+2550.000
+2560.000
+2570.000
+2580.000
+2590.000
+2600.000
+2610.000
+2620.000
+2630.000
+2640.000
+2650.000
+2660.000
+2670.000
+2680.000
+2690.000
+2700.000
+2710.000
+2720.000
+2730.000
+2740.000
+2750.000
+2760.000
+2770.000
+2780.000
+2790.000
+2800.000
+2810.000
+2820.000
+2830.000
+2840.000
+2850.000
+2860.000
+2870.000
+2880.000
+2890.000
+2900.000
+2910.000
+2920.000
+2930.000
+2940.000
+2950.000
+2960.000
+2970.000
+2980.000
+2990.000
+3000.000
+3010.000
+3020.000
+3030.000
+3040.000
+3050.000
+3060.000
+3070.000
+3080.000
+3090.000
+3100.000
+3110.000
+3120.000
+3130.000
+3140.000
+3150.000
+3160.000
+3170.000
+3180.000
+3190.000
+3200.000
+3210.000
+3220.000
+3230.000
+3240.000
+3250.000
+3260.000
+3270.000
+3280.000
+3290.000
+3300.000
+3310.000
+3320.000
+3330.000
+3340.000
+3350.000
+3360.000
+3370.000
+3380.000
+3390.000
+3400.000
+3410.000
+3420.000
+3430.000
+3440.000
+3450.000
+3460.000
+3470.000
+3480.000
+3490.000
+3500.000
+3510.000
+3520.000
+3530.000
+3540.000
+3550.000
+3560.000
+3570.000
+3580.000
+3590.000
+3600.000
+3610.000
+3620.000
+3630.000
+3640.000
+3650.000
+3660.000
+3670.000
+3680.000
+3690.000
+3700.000
+
+
+
+
+% -----------------------------------------------------
